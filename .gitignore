@@ -1,0 +1,66 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+*.tfplan
+.terraform/
+.terraformrc
+terraform.rc
+
+# AWS CLI
+.aws/
+aws-config.ini
+aws-credentials.ini
+
+# Vagrant
+.vagrant/
+Vagrantfile
+*.box
+
+# General
+.DS_Store
+.vscode/
+.idea/
+*.log
+*.bak
+*.swp
+*~
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Ignore override files as they are usually used to override resources locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore any .tfvars files that are automatically generated
+generated.tfvars
+
+# Ignore SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+
+# Ignore any local .terraform directories
+**/.terraform/*
+
+# Ignore Terraform lock files in case you're using Terraform 0.14+
+.terraform.lock.hcl
+
+# Ignore crash log files
+crash.log
+
+# Ignore temporary files
+*.tmp
+*.temp
